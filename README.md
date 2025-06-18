@@ -62,7 +62,9 @@ Ideal para aprendizado prático de manipulação de arquivos, entrada de dados v
     npm start
 4. Siga as instruções exibidas no terminal para realizar as operações bancárias.
 
-### Detalhes Técnicos
+---
+
+## Detalhes Técnicos
 - Armazenamento das contas: Cada conta é salva em um arquivo JSON dentro da pasta accounts, nomeado pelo nome da conta.
 
 - Formato do arquivo JSON da conta:
@@ -81,7 +83,9 @@ Ideal para aprendizado prático de manipulação de arquivos, entrada de dados v
 
 - Interface: Utiliza menus interativos via inquirer para guiar o usuário na operação desejada. Mensagens de sucesso e erro são coloridas com chalk para melhor experiência visual.
 
-### Considerações e Melhorias Futuras
+---
+
+## Considerações e Melhorias Futuras
 
 - Segurança:
 As senhas estão armazenadas em texto simples, o que não é seguro para aplicações reais. Uma melhoria importante seria aplicar hashing (ex: bcrypt).
@@ -100,5 +104,3 @@ Criar fluxo de login para manter usuário autenticado durante sessão.
 
 - Testes:
 Adicionar testes unitários e integração para garantir estabilidade.
-
----
